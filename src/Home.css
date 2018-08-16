@@ -1,0 +1,102 @@
+.body {
+  background-color: #FFDCC2;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #479D97;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.name {
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-size: 20px;
+}
+
+.hometextTitle {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.hometext {
+  font-size: 20px;
+  text-align: left;
+}
+
+.textbox {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.footer {
+  background-size: cover;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+}
+
+.footnote2 {
+  display: flex;
+  font-size: 18px;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.footnote3 {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.allrights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9d9d9;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.tableInfo {
+  background-color: #FFDCC2;
+  display: flex;
+  justify-content: center;
+}
+
+.infoText {
+  text-align: center;
+}
+
+.Iconset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}

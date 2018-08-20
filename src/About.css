@@ -1,0 +1,56 @@
+.topheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-size: 20px;
+}
+
+.Aboutheader {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #1D577A;
+  color: white;
+}
+
+.headertitle {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.abouttext {
+
+}
+
+.aboutcontent {
+  font-size: 20px;
+  text-align: center;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.bar {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.picSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

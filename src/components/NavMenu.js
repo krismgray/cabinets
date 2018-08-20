@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import '../Home.css';
 
 class NavMenu extends Component {
-  state = { width: window.innerWidth, visible: false, activeItem: 'home' }
+  state = { width: window.innerWidth, visible: false, activeItem: '' }
 
   handleClick = (e, { name }) => this.setState({ activeItem: name })
 
@@ -38,12 +38,12 @@ class NavMenu extends Component {
           </Link>
           <Link to="/About">
             <Menu.Item name='about' active={activeItem === 'about'} onClick={this.handleClick}>
-              About
+              About Us
             </Menu.Item>
           </Link>
-          <Link to='Styles'>
-            <Menu.Item name='styles' active={activeItem === 'styles'} onClick={this.handleClick}>
-              Styles
+          <Link to='Cabinets'>
+            <Menu.Item name='cabinets' active={activeItem === 'cabinets'} onClick={this.handleClick}>
+              Cabinets
             </Menu.Item>
           </Link>
           <Link to='Contact'>

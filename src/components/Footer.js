@@ -32,7 +32,7 @@ class Footer extends Component {
         </div>
       </div>
       <div className='allrights'>
-        <p>©Copyright @ 2018 All rights reserved | Designed by Kris Gray</p>
+        <p>©Copyright @2018 All rights reserved | Designed by Kris Gray</p>
       </div>
     </div>
     );

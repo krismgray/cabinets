@@ -3,7 +3,7 @@ import NavMenu from './NavMenu';
 import { Header, Segment, Image, Divider, Button, Container, Table, Icon, Transition } from 'semantic-ui-react';
 
 
-class Contact extends Component {
+class Cabinets extends Component {
   render() {
     return (
       <div>
@@ -22,4 +22,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default Cabinets;

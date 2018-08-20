@@ -1,14 +1,22 @@
 .body {
-  background-color: #FFDCC2;
+  background-color: ;
+}
+
+.topheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #479D97;
-  padding-top: 5px;
+  background-color: #FFEB98;
+  padding-top: 8px;
   padding-bottom: 5px;
+  padding-left: 10px;
   margin: 0;
 }
 
@@ -85,7 +93,6 @@
 }
 
 .tableInfo {
-  background-color: #FFDCC2;
   display: flex;
   justify-content: center;
 }
@@ -99,4 +106,20 @@
   justify-content: center;
   align-items: center;
   padding-top: 10px;
+}
+
+.Iconset:hover{
+  animation: shake 1.5s linear;
+}
+
+@keyframes shake {
+  0%{
+    transform: translate(0px,0px) rotate(0deg);
+  }
+  25%{
+    transform: translate(1px,1px) rotate(1deg);
+  }
+  50%{
+    transform: translate(-1px,-1px) rotate(-1deg);
+  }
 }

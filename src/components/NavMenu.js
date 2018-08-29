@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Header, Menu, Image, Button, Icon, Sidebar, Divider } from 'semantic-ui-react';
+import { Grid, Row, Col, Dropdown, DropdownButton } from 'react-bootstrap';
+
 import { Link } from 'react-router-dom';
 import '../Home.css';
 
@@ -30,7 +32,7 @@ class NavMenu extends Component {
       <div>
       <br />
       <div className="navbar">
-        <Menu secondary size='huge'>
+        <Menu secondary inverted size='huge'>
           <Link to="/">
             <Menu.Item name='home' active={activeItem === 'home'} onClick={this.handleClick}>
               Home

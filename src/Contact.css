@@ -19,7 +19,7 @@
   font-size: 20px;
 }
 
-.Aboutheader {
+.Contactheader {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #cccccc;
@@ -52,4 +52,43 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.contacttitle {
+  font-size: 50px;
+  font-family: fantasy;
+  font-weight: bold;
+  text-align: center;
+}
+
+.scheduletop {
+ text-decoration: underline;
+ font-size: 20px;
+}
+
+.schedule {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section1 {
+  display: flex;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+a:link {
+  text-decoration: underline;
+}
+
+.contactpic {
+  display: flex;
+justify-content: center;
+background-image: url('./images/back1.jpg');
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: center;
+height: 600px;
+width: 100%;
 }

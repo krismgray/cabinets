@@ -73,14 +73,14 @@ class NavMenu extends Component {
                 Home
               </Menu.Item>
             </Link>
-            <Link to="/Stylists">
-              <Menu.Item name='stylists' active={activeItem === 'stylists'} onClick={this.handleClick}>
-                Stylists
+            <Link to="/About">
+              <Menu.Item name='about' active={activeItem === 'about'} onClick={this.handleClick}>
+                About Us
               </Menu.Item>
             </Link>
-              <Link to='Services'>
-                <Menu.Item name='services' active={activeItem === 'services'} onClick={this.handleClick}>
-                  Services
+              <Link to='Cabinets'>
+                <Menu.Item name='cabinets' active={activeItem === 'cabinets'} onClick={this.handleClick}>
+                  Cabinets
                 </Menu.Item>
               </Link>
               <Link to='Contact'>

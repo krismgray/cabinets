@@ -5,6 +5,7 @@
   align-items: center;
 }
 
+
 .name {
   text-align: center;
 }
@@ -22,7 +23,6 @@
 .Contactheader {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #cccccc;
 }
 
 .headertitle {

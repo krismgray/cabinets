@@ -42,6 +42,7 @@ class Home extends Component {
               </div>
             </Carousel>
           </div>
+          <div className='body2'>
           <br />
           <br />
           <div className='hometext'>
@@ -159,6 +160,7 @@ class Home extends Component {
             <br />
             <br />
           </div>
+        </div>
         </div>
         <Footer />
       </div>

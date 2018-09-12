@@ -33,6 +33,7 @@ class Cabinets extends Component {
         <div className='Cabinetheader'>
           <p className='headertitle'>Cabinet Styles</p>
         </div>
+        <Divider />
         <br />
         <br />
         <div className='sections'>
@@ -65,10 +66,11 @@ class Cabinets extends Component {
 
         </div>
         <br />
-        <div className="cabinets1">
+        <div>
+          <br />
           <Container>
-            <h1>Custom Cabinets</h1>
-            <p>
+            <p className='tableTitle'>Custom Cabinets</p>
+            <p className='tableText'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
               Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
               Nulla facilisi. Donec egestas tellus est, vel iaculis dolor ornare at. Integer sed placerat tortor,
@@ -78,8 +80,10 @@ class Cabinets extends Component {
               Aliquam erat volutpat. Duis porta nibh eget risus ullamcorper, in sollicitudin velit ullamcorper.
               Etiam dictum sem at tellus gravida, eget euismod purus efficitur.
             </p>
+            <br />
+            <div className="cabinets1">
             <Accordion fluid styled>
-              <Accordion.Title active={activeIndex === 0} index={0} onClick={this.handleClick}>
+              <Accordion.Title style={{ 'color' : 'red' }} active={activeIndex === 0} index={0} onClick={this.handleClick}>
                 <Icon name='dropdown' />
                 Shenandoah
               </Accordion.Title>
@@ -88,8 +92,7 @@ class Cabinets extends Component {
                   this is where the details regarding these cabinets go.
                 </p>
               </Accordion.Content>
-
-              <Accordion.Title active={activeIndex === 1} index={1} onClick={this.handleClick}>
+              <Accordion.Title style={{ 'color' : 'red' }} active={activeIndex === 1} index={1} onClick={this.handleClick}>
                 <Icon name='dropdown' />
                 Schuler
               </Accordion.Title>
@@ -98,8 +101,65 @@ class Cabinets extends Component {
                   a;lskdjfa;lwkejfa;lkwejfae
                 </p>
               </Accordion.Content>
-
-              <Accordion.Title active={activeIndex === 2} index={2} onClick={this.handleClick}>
+              <Accordion.Title style={{ 'color' : 'red' }} active={activeIndex === 2} index={2} onClick={this.handleClick}>
+                <Icon name='dropdown' />
+                Diamond
+              </Accordion.Title>
+              <Accordion.Content active={activeIndex === 2}>
+                <p>
+                  This style .....
+                </p>
+              </Accordion.Content>
+            </Accordion>
+          </div>
+          </Container>
+          <br />
+          <br />
+          <br />
+          <div className='picGroup'>
+            <Image size='medium' src={require('../images/pic1.jpg')} />
+            <Image size='medium' src={require('../images/pic2.jpg')} />
+            <Image size='medium' src={require('../images/pic3.jpg')} />
+          </div>
+        </div>
+        <br />
+        <br />
+        <Divider />
+        <br />
+        <div className="cabinets2">
+          <Container>
+            <p className='tableTitle'>European Cabinets</p>
+            <p className='tableText'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
+              Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
+              Nulla facilisi. Donec egestas tellus est, vel iaculis dolor ornare at. Integer sed placerat tortor,
+              eget consectetur tellus. Donec vitae elit luctus, egestas risus in, tristique ante. Suspendisse potenti.
+              Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ullamcorper tincidunt ipsum eu ultrices.
+              Ut mattis, ante quis scelerisque mollis, risus massa imperdiet purus, a semper nisi velit a sapien.
+              Aliquam erat volutpat. Duis porta nibh eget risus ullamcorper, in sollicitudin velit ullamcorper.
+              Etiam dictum sem at tellus gravida, eget euismod purus efficitur.
+            </p>
+            <br />
+            <Accordion fluid styled>
+              <Accordion.Title style={{ 'color' : 'red' }} active={activeIndex === 0} index={0} onClick={this.handleClick}>
+                <Icon name='dropdown' />
+                Shenandoah
+              </Accordion.Title>
+              <Accordion.Content active={activeIndex === 0}>
+                <p>
+                  this is where the details regarding these cabinets go.
+                </p>
+              </Accordion.Content>
+              <Accordion.Title style={{ 'color' : 'red' }} active={activeIndex === 1} index={1} onClick={this.handleClick}>
+                <Icon name='dropdown' />
+                Schuler
+              </Accordion.Title>
+              <Accordion.Content active={activeIndex === 1}>
+                <p>
+                  a;lskdjfa;lwkejfa;lkwejfae
+                </p>
+              </Accordion.Content>
+              <Accordion.Title style={{ 'color' : 'red' }} active={activeIndex === 2} index={2} onClick={this.handleClick}>
                 <Icon name='dropdown' />
                 Diamond
               </Accordion.Title>
@@ -110,32 +170,24 @@ class Cabinets extends Component {
               </Accordion.Content>
             </Accordion>
           </Container>
-        </div>
-        <br />
-        <Divider />
-        <br />
-        <div className="cabinets2">
-          <Container>
-            <h1>European Cabinets</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
-              Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
-              Nulla facilisi. Donec egestas tellus est, vel iaculis dolor ornare at. Integer sed placerat tortor,
-              eget consectetur tellus. Donec vitae elit luctus, egestas risus in, tristique ante. Suspendisse potenti.
-              Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ullamcorper tincidunt ipsum eu ultrices.
-              Ut mattis, ante quis scelerisque mollis, risus massa imperdiet purus, a semper nisi velit a sapien.
-              Aliquam erat volutpat. Duis porta nibh eget risus ullamcorper, in sollicitudin velit ullamcorper.
-              Etiam dictum sem at tellus gravida, eget euismod purus efficitur.
-            </p>
-          </Container>
+          <br />
+          <br />
+          <br />
+          <div className='picGroup'>
+            <Image size='medium' src={require('../images/pic1.jpg')} />
+            <Image size='medium' src={require('../images/pic2.jpg')} />
+            <Image size='medium' src={require('../images/pic3.jpg')} />
+          </div>
+          <br />
+          <br />
         </div>
         <br />
         <Divider />
         <br />
         <div className="cabinets3">
           <Container>
-            <h1>Stock Cabinets</h1>
-            <p>
+            <p className='tableTitle'>Stock Cabinets</p>
+            <p className='tableText'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
               Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
               Nulla facilisi. Donec egestas tellus est, vel iaculis dolor ornare at. Integer sed placerat tortor,
@@ -145,7 +197,47 @@ class Cabinets extends Component {
               Aliquam erat volutpat. Duis porta nibh eget risus ullamcorper, in sollicitudin velit ullamcorper.
               Etiam dictum sem at tellus gravida, eget euismod purus efficitur.
             </p>
+            <br />
+            <Accordion fluid styled>
+              <Accordion.Title style={{ 'color' : 'red' }} active={activeIndex === 0} index={0} onClick={this.handleClick}>
+                <Icon name='dropdown' />
+                Shenandoah
+              </Accordion.Title>
+              <Accordion.Content active={activeIndex === 0}>
+                <p>
+                  this is where the details regarding these cabinets go.
+                </p>
+              </Accordion.Content>
+              <Accordion.Title style={{ 'color' : 'red' }} active={activeIndex === 1} index={1} onClick={this.handleClick}>
+                <Icon name='dropdown' />
+                Schuler
+              </Accordion.Title>
+              <Accordion.Content active={activeIndex === 1}>
+                <p>
+                  a;lskdjfa;lwkejfa;lkwejfae
+                </p>
+              </Accordion.Content>
+              <Accordion.Title style={{ 'color' : 'red' }} active={activeIndex === 2} index={2} onClick={this.handleClick}>
+                <Icon name='dropdown' />
+                Diamond
+              </Accordion.Title>
+              <Accordion.Content active={activeIndex === 2}>
+                <p>
+                  This style .....
+                </p>
+              </Accordion.Content>
+            </Accordion>
           </Container>
+          <br />
+          <br />
+          <br />
+          <div className='picGroup'>
+            <Image size='medium' src={require('../images/pic1.jpg')} />
+            <Image size='medium' src={require('../images/pic2.jpg')} />
+            <Image size='medium' src={require('../images/pic3.jpg')} />
+          </div>
+          <br />
+          <br />
         </div>
         <br />
         <Divider />

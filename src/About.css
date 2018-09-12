@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+.body3 {
+  background-color: #f2f2f2;
+}
+
 .name {
   text-align: center;
 }
@@ -22,7 +26,6 @@
 .Aboutheader {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #cccccc;
 }
 
 .headertitle {

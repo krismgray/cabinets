@@ -2,12 +2,17 @@
   background-color: ;
 }
 
+.body2 {
+  background-color: #f2f2f2;
+}
+
 .topheader {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
 
 .navbar {
   display: flex;
@@ -36,7 +41,7 @@
 
 .hometextTitle {
   text-align: center;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: bold;
 }
 
@@ -46,8 +51,8 @@
 }
 
 .textbox {
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .footer {

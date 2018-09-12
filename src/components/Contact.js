@@ -21,15 +21,12 @@ class Contact extends Component {
           </div>
         </div>
         <NavMenu />
-        <div className='Contactheader'>
-          <p className='headertitle'>Contact Us</p>
-        </div>
         <div className='contactpic'>
 
         </div>
-        <br />
-        <br />
-        <div>
+        <div className='body2'>
+          <br />
+          <br />
           <div className='contacttitle'>Our Contact Info</div>
           <br />
           <div className='section1'>
@@ -105,9 +102,9 @@ class Contact extends Component {
             </Row>
           </Grid>
         </div>
+        <br />
+        <br />
         </div>
-        <br />
-        <br />
         <Footer />
       </div>
     );

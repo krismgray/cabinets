@@ -20,9 +20,11 @@ class About extends Component {
           </div>
         </div>
         <NavMenu />
+        <div className='body3'>
         <div className='Aboutheader'>
           <p className='headertitle'>About Us</p>
         </div>
+        <Divider />
         <br />
         <div className='abouttext'>
           <p className='aboutcontent'>
@@ -66,6 +68,7 @@ class About extends Component {
         </div>
         <br />
         <br />
+        </div>
         <Footer />
       </div>
     );

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import * as Scroll from 'react-scroll';
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import NavMenu from './NavMenu';
 import Footer from './Footer';
 import { Header, Segment, Image, Divider, Button, Container, Table, Icon, Transition, Grid, Accordion } from 'semantic-ui-react';
@@ -43,19 +45,25 @@ class Cabinets extends Component {
                 <Image size='medium' centered src={require('../images/block.jpg')} />
                 <p className='sectionp'>Custom Cabinets</p>
                 <p className='sectionbio'>We offer custom cabients that ....... and ...... and .....</p>
-                <Button size='large' basic color='red'>Learn More!</Button>
+                <Link activeClass="active" to="sec1" smooth={true} duration={500} delay={500}>
+                  <Button size='large' basic color='red'>Learn More!</Button>
+                </Link>
               </Grid.Column>
               <Grid.Column>
                 <Image size='medium' centered src={require('../images/block.jpg')} />
                 <p className='sectionp'>European Cabinets</p>
                 <p className='sectionbio'>We offer European cabients that ....... and ...... and .....</p>
-                <Button size='large' basic color='red'>Learn More!</Button>
+                <Link activeClass="active" to="sec2" smooth={true} duration={500} delay={500}>
+                  <Button size='large' basic color='red'>Learn More!</Button>
+                </Link>
               </Grid.Column>
               <Grid.Column>
                 <Image size='medium' centered src={require('../images/block.jpg')} />
                 <p className='sectionp'>Stock cabinets</p>
                 <p className='sectionbio'>We have a variety of stock cabients that ....... and ...... and .....</p>
-                <Button size='large' basic color='red'>Learn More!</Button>
+                <Link activeClass="active" to="sec3" smooth={true} duration={500} delay={500}>
+                  <Button size='large' basic color='red'>Learn More!</Button>
+                </Link>
               </Grid.Column>
             </Grid.Row>
           </Grid>
@@ -68,7 +76,8 @@ class Cabinets extends Component {
         <br />
         <div>
           <br />
-          <Container>
+          <Element name="sec1" className="element">
+          <div className='container1'>
             <p className='tableTitle'>Custom Cabinets</p>
             <p className='tableText'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
@@ -112,7 +121,8 @@ class Cabinets extends Component {
               </Accordion.Content>
             </Accordion>
           </div>
-          </Container>
+        </div>
+          </Element>
           <br />
           <br />
           <br />
@@ -127,7 +137,8 @@ class Cabinets extends Component {
         <Divider />
         <br />
         <div className="cabinets2">
-          <Container>
+          <Element name="sec2" className="element">
+          <div className='container1'>
             <p className='tableTitle'>European Cabinets</p>
             <p className='tableText'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
@@ -140,6 +151,7 @@ class Cabinets extends Component {
               Etiam dictum sem at tellus gravida, eget euismod purus efficitur.
             </p>
             <br />
+            <div className="cabinets1">
             <Accordion fluid styled>
               <Accordion.Title style={{ 'color' : 'red' }} active={activeIndex === 0} index={0} onClick={this.handleClick}>
                 <Icon name='dropdown' />
@@ -169,7 +181,9 @@ class Cabinets extends Component {
                 </p>
               </Accordion.Content>
             </Accordion>
-          </Container>
+            </div>
+          </div>
+          </Element>
           <br />
           <br />
           <br />
@@ -185,7 +199,8 @@ class Cabinets extends Component {
         <Divider />
         <br />
         <div className="cabinets3">
-          <Container>
+          <Element name="sec3" className="element">
+          <div className="container1">
             <p className='tableTitle'>Stock Cabinets</p>
             <p className='tableText'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
@@ -198,6 +213,7 @@ class Cabinets extends Component {
               Etiam dictum sem at tellus gravida, eget euismod purus efficitur.
             </p>
             <br />
+            <div className="cabinets1">
             <Accordion fluid styled>
               <Accordion.Title style={{ 'color' : 'red' }} active={activeIndex === 0} index={0} onClick={this.handleClick}>
                 <Icon name='dropdown' />
@@ -227,7 +243,9 @@ class Cabinets extends Component {
                 </p>
               </Accordion.Content>
             </Accordion>
-          </Container>
+            </div>
+          </div>
+        </Element>
           <br />
           <br />
           <br />

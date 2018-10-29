@@ -64,10 +64,7 @@ class Footer extends Component {
           <Row>
               <div className='mobilefooter'>
                 <div className='mobilefooter1'>
-                  <Header as='h4'>C&E Cabinets</Header>
-                  <br />
-                  <p className='mobilefootnote2'>|</p>
-                  <br />
+                  <p style={{ "font-size" : "13px"}}>C&E Cabinets |</p>
                   <a href="https://www.facebook.com/">
                     <Icon color='black' name='facebook square' size='big' />
                   </a>

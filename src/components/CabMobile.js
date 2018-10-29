@@ -3,28 +3,14 @@ import * as Scroll from 'react-scroll';
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import NavMenu from './NavMenu';
 import Footer from './Footer';
-import CabMobile from './CabMobile';
 import { Header, Segment, Image, Divider, Button, Container, Table, Icon, Transition, Grid, Accordion } from 'semantic-ui-react';
+import {  Row, Col } from 'react-bootstrap';
 import '../Cabinets.css';
 
 
 
-class Cabinets extends Component {
-  state = { activeIndex: '', width: window.innerWidth, visible: false  }
-
-    handleResize() {
-      this.setState({ width: window.innerWidth });
-    }
-
-    componentDidMOunt() {
-      window.addEventListener('resize', this.handleResize())
-    }
-
-    componentWillUnmount() {
-      window.removeEventListener('resize', this.handleResize());
-    }
-
-    toggleVisibility = () => this.setState({ visible: !this.state.visible })
+class CabMobile extends Component {
+  state = { activeIndex: '' }
 
   handleClick = (e, titleProps) => {
   const { index } = titleProps
@@ -35,9 +21,6 @@ class Cabinets extends Component {
 
   render() {
     const { activeIndex } = this.state;
-    const { activeItem, width, visible } = this.state;
-    const isMobile = width <= 500;
-    if (!isMobile ){
     return (
       <div>
         <div className='topheader'>
@@ -49,6 +32,7 @@ class Cabinets extends Component {
             <p className='subTitle'>Custom and European cabinets</p>
           </div>
         </div>
+        <br />
         <NavMenu />
         <div className='colorpage'>
         <div className='Cabinetheader'>
@@ -59,8 +43,8 @@ class Cabinets extends Component {
         <br />
         <div className='sections'>
           <Grid columns='equal'>
-            <Grid.Row columns={3}>
-              <Grid.Column>
+            <Grid.Row columns={1}>
+              <Grid.Column className='cabsection1'>
                 <Image size='medium' centered src={require('../images/block.jpg')} />
                 <p className='sectionp'>Custom Cabinets</p>
                 <p className='sectionbio'>We offer custom cabients that ....... and ...... and .....</p>
@@ -68,7 +52,7 @@ class Cabinets extends Component {
                   <Button size='large' basic color='red'>Learn More!</Button>
                 </Link>
               </Grid.Column>
-              <Grid.Column>
+              <Grid.Column className='cabsection2'>
                 <Image size='medium' centered src={require('../images/block.jpg')} />
                 <p className='sectionp'>European Cabinets</p>
                 <p className='sectionbio'>We offer European cabients that ....... and ...... and .....</p>
@@ -76,7 +60,7 @@ class Cabinets extends Component {
                   <Button size='large' basic color='red'>Learn More!</Button>
                 </Link>
               </Grid.Column>
-              <Grid.Column>
+              <Grid.Column className='cabsection3'>
                 <Image size='medium' centered src={require('../images/block.jpg')} />
                 <p className='sectionp'>Stock cabinets</p>
                 <p className='sectionbio'>We have a variety of stock cabients that ....... and ...... and .....</p>
@@ -87,19 +71,14 @@ class Cabinets extends Component {
             </Grid.Row>
           </Grid>
         </div>
-        <br />
-        <br />
-        <div className='cabinetpic'>
+        <div className='Mobilecabinetpic'>
 
         </div>
-        <br />
         <div>
-          <br />
           <Element name="sec1" className="element">
             <br />
-          <div className='container1'>
             <p className='tableTitle'>Custom Cabinets</p>
-            <p className='tableText'>
+            <p className='MobiletableText'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
               Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
               Nulla facilisi. Donec egestas tellus est, vel iaculis dolor ornare at. Integer sed placerat tortor,
@@ -141,15 +120,11 @@ class Cabinets extends Component {
               </Accordion.Content>
             </Accordion>
           </div>
-        </div>
           </Element>
-          <br />
           <br />
           <br />
           <div className='picGroup'>
             <Image size='medium' src={require('../images/pic1.jpg')} />
-            <Image size='medium' src={require('../images/pic2.jpg')} />
-            <Image size='medium' src={require('../images/pic3.jpg')} />
           </div>
         </div>
         <br />
@@ -163,29 +138,17 @@ class Cabinets extends Component {
             <br />
             <br />
             <div className='section2'>
-            <Grid columns='equal'>
-              <Grid.Row>
-                <Grid.Column width={12}>
-                  <p className='tableText2'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
-                    Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
-                    Nulla facilisi. Donec egestas tellus est, vel iaculis dolor ornare at. Integer sed placerat tortor,
-                    eget consectetur tellus. Donec vitae elit luctus, egestas risus in, tristique ante. Suspendisse potenti.
-                    Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ullamcorper tincidunt ipsum eu ultrices.
-                    Ut mattis, ante quis scelerisque mollis, risus massa imperdiet purus, a semper nisi velit a sapien.
-                    Aliquam erat volutpat. Duis porta nibh eget risus ullamcorper, in sollicitudin velit ullamcorper.
-                    Etiam dictum sem at tellus gravida, eget euismod purus efficitur.
-                  </p>
-                </Grid.Column>
-
-                <Grid.Column width={4}>
-                  <Image size='medium' centered src={require('../images/pic1.jpg')} />
-                </Grid.Column>
-              </Grid.Row>
-            </Grid>
+              <p className='MobiletableText'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
+                Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
+                Nulla facilisi. Donec egestas tellus est, vel iaculis dolor ornare at. Integer sed placerat tortor,
+                eget consectetur tellus. Donec vitae elit luctus, egestas risus in, tristique ante. Suspendisse potenti.
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ullamcorper tincidunt ipsum eu ultrices.
+                Ut mattis, ante quis scelerisque mollis, risus massa imperdiet purus, a semper nisi velit a sapien.
+                Aliquam erat volutpat. Duis porta nibh eget risus ullamcorper, in sollicitudin velit ullamcorper.
+                Etiam dictum sem at tellus gravida, eget euismod purus efficitur.
+              </p>
             </div>
-            <br />
-            <br />
             <br />
             <br />
             <div className="cabinets1">
@@ -222,9 +185,9 @@ class Cabinets extends Component {
           </Element>
           <br />
           <br />
-          <br />
-          <br />
-          <br />
+            <div className='picGroup'>
+              <Image size='medium' src={require('../images/pic2.jpg')} />
+            </div>
         </div>
         <br />
         <Divider />
@@ -232,9 +195,8 @@ class Cabinets extends Component {
         <div className="cabinets3">
           <Element name="sec3" className="element">
             <br />
-          <div className="container1">
             <p className='tableTitle'>Stock Cabinets</p>
-            <p className='tableText'>
+            <p className='MobiletableText'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
               Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
               Nulla facilisi. Donec egestas tellus est, vel iaculis dolor ornare at. Integer sed placerat tortor,
@@ -276,13 +238,11 @@ class Cabinets extends Component {
               </Accordion.Content>
             </Accordion>
             </div>
-          </div>
         </Element>
           <br />
           <br />
           <br />
           <div className='picGroup'>
-            <Image size='medium' src={require('../images/pic1.jpg')} />
             <Image size='medium' src={require('../images/pic3.jpg')} />
           </div>
           <br />
@@ -293,14 +253,8 @@ class Cabinets extends Component {
         <Footer />
         </div>
       </div>
-    )} else {
-      return (
-        <div>
-          <CabMobile />
-        </div>
-      )
-    }
+    );
   }
 }
 
-export default Cabinets;
+export default CabMobile;

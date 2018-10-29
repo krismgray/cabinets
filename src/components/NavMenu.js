@@ -61,12 +61,12 @@ class NavMenu extends Component {
         <div>
           <div className='mobilemenu'>
             <div className='mobilemenu1'>
-            <Button fluid size='big' icon onClick={this.toggleVisibility}><Icon name='content' size='large' /></Button>
+            <Button color='black' fluid size='big' onClick={this.toggleVisibility}><Icon name='content' size='large' /></Button>
             </div>
             <br />
           </div>
           <br />
-            <Sidebar as={Menu} animation='overlay' visible={visible} direction='left' vertical>
+            <Sidebar as={Menu} animation='overlay' visible={visible} direction='top' vertical>
               <Button onClick={this.toggleVisibility}><Icon name='remove' size='large' /></Button>
             <Link to="/">
               <Menu.Item name='home' active={activeItem === 'home'} onClick={this.handleClick}>

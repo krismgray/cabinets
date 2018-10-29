@@ -43,6 +43,7 @@
   text-align: center;
   font-size: 45px;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 
 .hometext {
@@ -145,13 +146,18 @@
 
 .mobilefooter1 {
   display: flex;
+  font-size: 14px;
   flex-direction: row;
+  align-items: center;
   padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .mobilefootnote2 {
   display: flex;
-  font-size: 12px;
+  font-size: 14px;
   flex-direction: row;
   align-items: center;
   padding-left: 5px;

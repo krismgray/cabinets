@@ -4,6 +4,19 @@
   text-align: center;
 }
 
+.colorpage {
+  background-color: #f2f2f2;
+}
+
+.section2 {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .sectionp {
   padding-top: 10px;
   font-size: 35px;
@@ -32,10 +45,20 @@
 .cabinetpic {
   display: flex;
   justify-content: center;
-  background-image: url('./images/1.jpg');
+  background-image: url('./images/cabinet5.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
+  background-position: center;
+  height: 650px;
+  width: 100%;
+}
+
+.Mobilecabinetpic {
+  display: flex;
+  justify-content: center;
+  background-image: url('./images/cabinet5.jpg');
+  background-repeat: no-repeat;
   background-position: center;
   height: 650px;
   width: 100%;
@@ -49,6 +72,12 @@
 
 .tableText {
   font-size: 24px;
+}
+
+.tableText2 {
+  font-size: 25px;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 .tableName {
@@ -88,4 +117,23 @@
   align-items: center;
   padding-left: 8%;
   padding-right: 8%;
+}
+
+.cabsection1 {
+  padding-bottom: 5vh;
+}
+
+.cabsection2 {
+  padding-bottom: 5vh;
+}
+
+.cabsection3 {
+  padding-bottom: 5vh;
+}
+
+.MobiletableText {
+  font-size: 20px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }

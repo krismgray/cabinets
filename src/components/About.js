@@ -50,23 +50,15 @@ class About extends Component {
         <br />
         <div className='abouttext'>
           <p className='aboutcontent'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
-            Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
-            Nulla facilisi. Donec egestas tellus est, vel iaculis dolor ornare at. Integer sed placerat tortor,
-            eget consectetur tellus.
+            C&E Cabinets has been manufacturing custom woodworking items for 18 years in the state of Utah.
+            We serve residential as well as commercial clients.
+            We take pride in what we build and know what it means to construct a quality piece of art.
           </p>
           <p className='aboutcontent'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
-            Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
-            Nulla facilisi.Donec vitae elit luctus, egestas risus in, tristique ante. Suspendisse potenti.
-            Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          </p>
-          <p className='aboutcontent'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
-            Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
-            Nulla facilisi. Donec egestas tellus est, vel iaculis dolor ornare at. Integer sed placerat tortor,
-            eget consectetur tellus.Donec vitae elit luctus, egestas risus in, tristique ante. Suspendisse potenti.
-            Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            Make your dream kitchen or project a reality at an affordable price.
+            Our most common woods that we work with are Hickory, Maple, Alder, Oak, Cherry, Walnut that can be designed with a knotty or clear look.
+            Cabinets may come In natural color, or any color of your choice as well with an option to include glaze or non-glaze to the finish of the cabinet.
+            Please call or email for a free estimate.
           </p>
         </div>
         <br />
@@ -77,11 +69,7 @@ class About extends Component {
         <br />
         <br />
         <div className='picSection'>
-          <Image.Group size='large'>
-            <Image src={require('../images/pic1.jpg')} />
-            <Image src={require('../images/pic2.jpg')} />
-            <Image src={require('../images/pic3.jpg')} />
-          </Image.Group>
+            <Image size='large' src={require('../images/pic5.jpg')} />
         </div>
         <br />
         <br />
@@ -121,23 +109,15 @@ class About extends Component {
           <br />
           <div className='abouttext'>
             <p className='aboutcontent'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
-              Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
-              Nulla facilisi. Donec egestas tellus est, vel iaculis dolor ornare at. Integer sed placerat tortor,
-              eget consectetur tellus.
+              C&E Cabinets has been manufacturing custom woodworking items for 18 years in the state of Utah.
+              We serve residential as well as commercial clients.
+              We take pride in what we build and know what it means to construct a quality piece of art.
             </p>
             <p className='aboutcontent'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
-              Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
-              Nulla facilisi.Donec vitae elit luctus, egestas risus in, tristique ante. Suspendisse potenti.
-              Interdum et malesuada fames ac ante ipsum primis in faucibus.
-            </p>
-            <p className='aboutcontent'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
-              Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
-              Nulla facilisi. Donec egestas tellus est, vel iaculis dolor ornare at. Integer sed placerat tortor,
-              eget consectetur tellus.Donec vitae elit luctus, egestas risus in, tristique ante. Suspendisse potenti.
-              Interdum et malesuada fames ac ante ipsum primis in faucibus.
+              Make your dream kitchen or project a reality at an affordable price.
+              Our most common woods that we work with are Hickory, Maple, Alder, Oak, Cherry, Walnut that can be designed with a knotty or clear look.
+              Cabinets may come In natural color, or any color of your choice as well with an option to include glaze or non-glaze to the finish of the cabinet.
+              Please call or email for a free estimate.
             </p>
           </div>
           <br />
@@ -148,13 +128,9 @@ class About extends Component {
           <br />
           <br />
           <div className='picSection'>
-            <Image.Group size='large'>
-              <Image src={require('../images/pic1.jpg')} />
-              <Image src={require('../images/pic2.jpg')} />
-              <Image src={require('../images/pic3.jpg')} />
-            </Image.Group>
+              <Image src={require('../images/pic5.jpg')} />
           </div>
-            <Divider />
+          <br />
           </div>
           <Footer />
         </div>

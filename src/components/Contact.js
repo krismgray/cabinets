@@ -65,8 +65,8 @@ class Contact extends Component {
               </a>
               <p></p>
                 <div>
-                  <a href="mailto:.com">
-                    c&ecabinets@gmail.com
+                  <a href="mailto:cabinetry@c&ecabinets.com">
+                    cabinetry@c&ecabinets.com
                   </a>
                 </div>
                 <br />
@@ -167,8 +167,8 @@ class Contact extends Component {
                 </a>
                 <p></p>
                   <div>
-                    <a href="mailto:.com">
-                      c&ecabinets@gmail.com
+                    <a href="mailto:cabinetry@c&ecabinets.com">
+                      cabinetry@c&ecabinets.com
                     </a>
                   </div>
                   <br />

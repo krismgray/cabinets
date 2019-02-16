@@ -32,8 +32,12 @@
 }
 
 .Cabinetheader {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.CabinetheaderMobile {
   padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .headertitle {
@@ -50,17 +54,17 @@
   background-size: 100%;
   background-attachment: fixed;
   background-position: center;
-  height: 650px;
+  height: 450px;
   width: 100%;
 }
 
 .Mobilecabinetpic {
   display: flex;
   justify-content: center;
-  background-image: url('./images/cabinet5.jpg');
+  background-image: url('./images/cabinet4.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  height: 650px;
+  height: 500px;
   width: 100%;
 }
 

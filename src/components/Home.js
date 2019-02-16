@@ -77,32 +77,11 @@ class Home extends Component {
               </Col>
               <Container className='textbox'>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
-                  Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
-                  Nulla facilisi. Donec egestas tellus est, vel iaculis dolor ornare at. Integer sed placerat tortor,
-                  eget consectetur tellus. Donec vitae elit luctus, egestas risus in, tristique ante. Suspendisse potenti.
-                  Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ullamcorper tincidunt ipsum eu ultrices.
-                  Ut mattis, ante quis scelerisque mollis, risus massa imperdiet purus, a semper nisi velit a sapien.
-                  Aliquam erat volutpat. Duis porta nibh eget risus ullamcorper, in sollicitudin velit ullamcorper.
-                  Etiam dictum sem at tellus gravida, eget euismod purus efficitur.
-                </p>
-                <p>
-                  Vivamus vitae venenatis sapien. In hac habitasse platea dictumst.
-                  Duis interdum libero eget iaculis finibus. Praesent commodo, sapien a ultrices aliquet,
-                   nisi ipsum auctor quam, in efficitur libero dui et dui. Donec lacinia mauris non venenatis ornare.
-                   Fusce ut justo non eros feugiat pharetra. Aenean id varius ligula.
-
-                  Praesent quis elementum neque. Donec tempus, est non aliquet convallis, augue nibh eleifend elit,
-                  nec faucibus lorem lectus a magna. Nam vehicula placerat magna, a finibus nibh dictum in. Donec
-                  elementum vestibulum magna eleifend consequat. Nam luctus non mauris nec fermentum. Nulla imperdiet
-                  gravida sem.
-                </p>
-                <p>
-                  Nam tincidunt odio mi, sed vestibulum leo sagittis vel. Nam metus lorem, venenatis eu orci a,
-                  fringilla porta augue. Pellentesque porttitor diam felis. Morbi mattis odio quis purus sodales tincidunt.
-                  Vestibulum consectetur diam sed velit sodales pharetra. Morbi egestas eros a quam hendrerit, pharetra suscipit
-                  risus luctus. Nulla condimentum neque eu fringilla commodo. Suspendisse laoreet, nisi quis gravida elementum,
-                   magna felis faucibus diam, quis tempus libero quam nec arcu.
+                  C&E Cabinets has supplied custom, standard
+                  and European cabinets for Northern Utah,
+                  Southern Utah, and the Salt Lake Valley for the
+                   last 17 years, providing quality cabinets and
+                   personalized service.
                 </p>
             </Container>
             </Row>
@@ -243,36 +222,11 @@ class Home extends Component {
               <Container className='textbox'>
               <Col xs={12} sm={6} md={4}>
                 <p className='homemobiletext'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget lobortis orci.
-                  Suspendisse mattis nisi auctor, accumsan leo a, viverra risus. Nam viverra tempus efficitur.
-                  Nulla facilisi. Donec egestas tellus est, vel iaculis dolor ornare at. Integer sed placerat tortor,
-                  eget consectetur tellus. Donec vitae elit luctus, egestas risus in, tristique ante. Suspendisse potenti.
-                  Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ullamcorper tincidunt ipsum eu ultrices.
-                  Ut mattis, ante quis scelerisque mollis, risus massa imperdiet purus, a semper nisi velit a sapien.
-                  Aliquam erat volutpat. Duis porta nibh eget risus ullamcorper, in sollicitudin velit ullamcorper.
-                  Etiam dictum sem at tellus gravida, eget euismod purus efficitur.
-                </p>
-              </Col>
-              <Col xs={12} sm={6} md={4}>
-                <p className='homemobiletext'>
-                  Vivamus vitae venenatis sapien. In hac habitasse platea dictumst.
-                  Duis interdum libero eget iaculis finibus. Praesent commodo, sapien a ultrices aliquet,
-                   nisi ipsum auctor quam, in efficitur libero dui et dui. Donec lacinia mauris non venenatis ornare.
-                   Fusce ut justo non eros feugiat pharetra. Aenean id varius ligula.
-
-                  Praesent quis elementum neque. Donec tempus, est non aliquet convallis, augue nibh eleifend elit,
-                  nec faucibus lorem lectus a magna. Nam vehicula placerat magna, a finibus nibh dictum in. Donec
-                  elementum vestibulum magna eleifend consequat. Nam luctus non mauris nec fermentum. Nulla imperdiet
-                  gravida sem.
-                </p>
-              </Col>
-              <Col xs={12} sm={6} md={4}>
-                <p className='homemobiletext'>
-                  Nam tincidunt odio mi, sed vestibulum leo sagittis vel. Nam metus lorem, venenatis eu orci a,
-                  fringilla porta augue. Pellentesque porttitor diam felis. Morbi mattis odio quis purus sodales tincidunt.
-                  Vestibulum consectetur diam sed velit sodales pharetra. Morbi egestas eros a quam hendrerit, pharetra suscipit
-                  risus luctus. Nulla condimentum neque eu fringilla commodo. Suspendisse laoreet, nisi quis gravida elementum,
-                   magna felis faucibus diam, quis tempus libero quam nec arcu.
+                  C&E Cabinets has supplied custom, standard
+                  and European cabinets for Northern Utah,
+                  Southern Utah, and the Salt Lake Valley for the
+                   last 17 years, providing quality cabinets and
+                   personalized service. 
                 </p>
               </Col>
             </Container>
